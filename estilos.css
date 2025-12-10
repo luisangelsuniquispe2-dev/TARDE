@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(226, 222, 230);
+color: black;
+line-height: 1,6 ;
+word-spacing: 4px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+ header {
+    background: linear-gradient( 90deg, #2c93cf,#216bda );
+   color:aliceblue;
+   padding: 25px;
+   text-align: center;
+   text-transform: uppercase;
+   text-shadow: 4px 10px 5px #5eaab4;
+ }
+ .titulo-principal{
+    font-size: 2.2em;
+    font-weight: 700;
+    font-stretch: expanded;
+ }
+
+ .subtitulo {
+    font-size: 1.2em;
+    font-style: italic;
+    font-variant: small-caps;
+    font-kerning: normal;
+ }
+ .perfil{
+    background-color: #5eaab4;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+ }
+ .nonbre{
+    color:#09c485
+    font-size 1.5em;
+    margin-bottom: 10px;
+    text-decoration: #9ec5ca;
+ }
+ .descipcion{
+    text-indent: 40px;
+    text-align: justify;
+    text-overflow: ellipsis;
+
+ }
+ 
+ .enfasis{
+    color:#b4ecca;
+    font-weight: bold;
+
+
+    }
+ .titulo-seccion{
+    color:#0b0c0c;
+    font-size: 1,4em;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+
+ }
+ ul{
+    list-style-type:none ;
+    text-align: center;
+
+ }
+ ul li{
+    margin: 8px 0;
+    font-style: oblique;
+    color:#b45e86
+ }
+ footer{
+    background-color: #22c9c0;
+    color: #129764;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    line-height: 1.4;
+
+ }
+ .firma{
+    color: #5aa780;
+    text-decoration: overline;
+ }
